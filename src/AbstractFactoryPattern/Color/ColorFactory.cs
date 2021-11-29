@@ -10,19 +10,14 @@ namespace AbstractFactoryPattern
     {
         internal override IColor GetColor<T>()
         {
-            Type shapeType = typeof(T);
-            IColor color = null;
-            switch (shapeType.Name)
+            switch (typeof(T).Name)
             {
                 case nameof(Red):
-                    color = new Red();
-                    break;
+                    return new Red();
                 case nameof(Green):
-                    color = new Green();
-                    break;
+                    return new Green();
                 case nameof(Blue):
-                    color = new Blue();
-                    break;
+                    return new Blue();
                 default:
                     break;
             }

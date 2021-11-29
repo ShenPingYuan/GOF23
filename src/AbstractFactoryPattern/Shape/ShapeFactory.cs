@@ -10,23 +10,18 @@ namespace AbstractFactoryPattern
     {
         internal override IShape GetShape<T>()
         {
-            Type shapeType = typeof(T);
-            IShape shape = null;
-            switch (shapeType.Name)
+            switch (typeof(T).Name)
             {
                 case nameof(Circle):
-                    shape = new Circle();
-                    break;
-                case nameof(Rectangle):
-                    shape = new Rectangle();
-                    break;
+                    return new Circle();
                 case nameof(Square):
-                    shape = new Square();
-                    break;
+                    return new Square();
+                case nameof(Rectangle):
+                    return new Rectangle();
                 default:
                     break;
             }
-            return shape;
+            return null;
         }
         internal override IColor GetColor<T>()
         {

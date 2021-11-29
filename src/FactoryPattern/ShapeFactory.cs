@@ -10,23 +10,18 @@ namespace FactoryPattern
     {
         public IShape GetShape<T>() where T:IShape
         {
-            Type shapeType = typeof(T);
-            IShape shape = null;
-            switch (shapeType.Name)
+            switch (typeof(T).Name)
             {
                 case nameof(Circle):
-                    shape = new Circle();
-                    break;
+                    return new Circle();
                 case nameof(Rectangle):
-                    shape = new Rectangle();
-                    break;
+                    return new Rectangle();
                 case nameof(Square):
-                    shape = new Square();
-                    break;
+                    return new Square();
                 default:
                     break;
             }
-            return shape;
+            return null;
         }
     }
 }

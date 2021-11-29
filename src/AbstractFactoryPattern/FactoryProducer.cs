@@ -1,13 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AbstractFactoryPattern
+﻿namespace AbstractFactoryPattern
 {
     internal class FactoryProducer
     {
-        public static AbstractFactory GetFactory()
+        public static AbstractFactory GetFactory<T>() where T : AbstractFactory
+        {
+            switch (typeof(T).Name)
+            {
+                case nameof(IColor):
+                    return new ColorFactory();
+                case nameof(IShape):
+                    return new ShapeFactory();
+                default:
+                    break;
+            }
+            return null;
+        }
     }
 }
