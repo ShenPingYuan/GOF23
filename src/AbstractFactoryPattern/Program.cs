@@ -23,7 +23,6 @@ namespace AbstractFactoryPattern
             //获取Green的对象
             IColor color2 = colorFactory.GetColor<Green>();
             color2.Fill(); //fill with green color
-
         }
     }
 }
