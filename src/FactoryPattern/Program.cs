@@ -8,13 +8,13 @@ namespace FactoryPattern
         {
             ShapeFactory shapeFactory = new ShapeFactory();
 
-            IShape shape= shapeFactory.GetShape<Square>();
+            IShape shape = shapeFactory.GetShap("Square");
             shape.Draw();//Draw a Square
 
-            IShape shape2 = shapeFactory.GetShape<Circle>();
+            IShape shape2 = shapeFactory.GetShap("Circle");
             shape2.Draw();//Draw a Circle
 
-            IShape shape3 = shapeFactory.GetShape<Rectangle>();
+            IShape shape3 = shapeFactory.GetShap("Rectangle");
             shape3.Draw();//Draw a Rectangle
         }
     }

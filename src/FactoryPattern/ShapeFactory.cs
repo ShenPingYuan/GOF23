@@ -8,15 +8,15 @@ namespace FactoryPattern
 {
     internal class ShapeFactory
     {
-        public IShape GetShape<T>() where T:IShape
+        public IShape GetShap(string type)
         {
-            switch (typeof(T).Name)
+            switch (type.ToUpper())
             {
-                case nameof(Circle):
+                case "CIRCLE":
                     return new Circle();
-                case nameof(Rectangle):
+                case "RECTANGLE":
                     return new Rectangle();
-                case nameof(Square):
+                case "SQUARE":
                     return new Square();
                 default:
                     break;
