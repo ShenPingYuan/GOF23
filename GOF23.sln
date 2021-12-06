@@ -15,21 +15,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_单例模式", "1_单例�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "src\SingletonPattern\SingletonPattern.csproj", "{920AE531-92E4-4248-B2ED-3E908548E4E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "src\DecoratorPattern\DecoratorPattern.csproj", "{9537C55D-56DF-4108-9D03-440D8ED406B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "src\DecoratorPattern\DecoratorPattern.csproj", "{9537C55D-56DF-4108-9D03-440D8ED406B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "装饰器模式", "装饰器模式", "{37B40B8F-3914-4F1A-8A26-230F3D7E58BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "代理模式", "代理模式", "{023FE1D5-4697-417E-AA77-4E9B614C5C7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "src\ProxyPattern\ProxyPattern.csproj", "{865C37DF-0B7B-46D1-B2FA-1D3D6EF3C7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "src\ProxyPattern\ProxyPattern.csproj", "{865C37DF-0B7B-46D1-B2FA-1D3D6EF3C7AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工厂方法模式", "工厂方法模式", "{F3B4F02D-C7BB-4926-A517-4FB68095B9FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{6F2A4BE5-AC8F-497E-B2CB-17CB2B390A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{6F2A4BE5-AC8F-497E-B2CB-17CB2B390A4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "原型模式", "原型模式", "{B4D670FF-C8EB-4DD2-B99F-1712446CF9C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "src\PrototypePattern\PrototypePattern.csproj", "{7C33DD69-0C87-4BFF-B50E-4AB15AFF20D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "src\PrototypePattern\PrototypePattern.csproj", "{7C33DD69-0C87-4BFF-B50E-4AB15AFF20D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "模板方法模式", "模板方法模式", "{247FE700-BD17-4194-A5EF-BF8C9144786B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "src\TemplateMethodPattern\TemplateMethodPattern.csproj", "{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,18 @@ Global
 		{7C33DD69-0C87-4BFF-B50E-4AB15AFF20D5}.Release|x64.Build.0 = Release|Any CPU
 		{7C33DD69-0C87-4BFF-B50E-4AB15AFF20D5}.Release|x86.ActiveCfg = Release|Any CPU
 		{7C33DD69-0C87-4BFF-B50E-4AB15AFF20D5}.Release|x86.Build.0 = Release|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Debug|x64.Build.0 = Debug|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Debug|x86.Build.0 = Debug|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Release|x64.ActiveCfg = Release|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Release|x64.Build.0 = Release|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Release|x86.ActiveCfg = Release|Any CPU
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +153,7 @@ Global
 		{865C37DF-0B7B-46D1-B2FA-1D3D6EF3C7AD} = {023FE1D5-4697-417E-AA77-4E9B614C5C7C}
 		{6F2A4BE5-AC8F-497E-B2CB-17CB2B390A4B} = {F3B4F02D-C7BB-4926-A517-4FB68095B9FF}
 		{7C33DD69-0C87-4BFF-B50E-4AB15AFF20D5} = {B4D670FF-C8EB-4DD2-B99F-1712446CF9C3}
+		{01C647B5-59AD-48C7-BAB2-E22B0D5FBDB7} = {247FE700-BD17-4194-A5EF-BF8C9144786B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16EB2821-2690-4FB9-9010-87928455E735}
