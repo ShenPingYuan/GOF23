@@ -8,21 +8,21 @@ namespace AbstractFactoryPattern
 {
     internal class ColorFactory:AbstractFactory
     {
-        internal override IColor GetColor<T>()
+        internal override IColor GetColor(string type)
         {
-            switch (typeof(T).Name)
+            switch (type.ToUpper())
             {
-                case nameof(Red):
+                case "RED":
                     return new Red();
-                case nameof(Green):
+                case "GREEN":
                     return new Green();
-                case nameof(Blue):
+                case "BLUE":
                     return new Blue();
                 default:
                     break;
             }
             return null;
         }
-        internal override IShape GetShape<T>() => null;
+        internal override IShape GetShape(string type) => null;
     }
 }

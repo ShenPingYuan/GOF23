@@ -8,7 +8,7 @@ namespace AbstractFactoryPattern
 {
     public abstract class AbstractFactory
     {
-        internal abstract IColor GetColor<T>() where T:IColor;
-        internal abstract IShape GetShape<T>() where T:IShape;
+        internal abstract IColor GetColor(string type);
+        internal abstract IShape GetShape(string type);
     }
 }

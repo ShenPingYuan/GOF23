@@ -2,13 +2,13 @@
 {
     internal class FactoryProducer
     {
-        public static AbstractFactory GetFactory<T>() where T : AbstractFactory
+        public static AbstractFactory GetFactory(string factoryType)
         {
-            switch (typeof(T).Name)
+            switch (factoryType.ToUpper())
             {
-                case nameof(IColor):
+                case "COLORFACTORY":
                     return new ColorFactory();
-                case nameof(IShape):
+                case "SHAPEFACTORY":
                     return new ShapeFactory();
                 default:
                     break;

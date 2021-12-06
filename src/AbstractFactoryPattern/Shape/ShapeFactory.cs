@@ -8,24 +8,21 @@ namespace AbstractFactoryPattern
 {
     internal class ShapeFactory:AbstractFactory
     {
-        internal override IShape GetShape<T>()
+        internal override IShape GetShape(string type)
         {
-            switch (typeof(T).Name)
+            switch (type.ToUpper())
             {
-                case nameof(Circle):
+                case "CIRCLE":
                     return new Circle();
-                case nameof(Square):
+                case "SQUARE":
                     return new Square();
-                case nameof(Rectangle):
+                case "RECTANGLE":
                     return new Rectangle();
                 default:
                     break;
             }
             return null;
         }
-        internal override IColor GetColor<T>()
-        {
-            return null;
-        }
+        internal override IColor GetColor(string type) => null;
     }
 }
