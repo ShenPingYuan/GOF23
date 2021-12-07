@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ObserverPattern.Observer;
+using ObserverPattern.Subject;
+using System;
 
 namespace ObserverPattern
 {
@@ -6,7 +8,13 @@ namespace ObserverPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConcreteSubject subject = new ConcreteSubject();
+            new ConcreteObserver(subject, "X");
+            new ConcreteObserver(subject, "Y");
+            new ConcreteObserver(subject, "Z");
+            subject.SubjectState = "ABC";
+            subject.SubjectState = "hello";
         }
     }
+
 }
