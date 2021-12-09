@@ -55,6 +55,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "src\StatePattern\StatePattern.csproj", "{416F3701-8820-446A-8E57-28E3126EDFD4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "适配器模式", "适配器模式", "{AF84C38A-777C-41DE-A240-1E604BADF32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "src\AdapterPattern\AdapterPattern.csproj", "{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +225,18 @@ Global
 		{416F3701-8820-446A-8E57-28E3126EDFD4}.Release|x64.Build.0 = Release|Any CPU
 		{416F3701-8820-446A-8E57-28E3126EDFD4}.Release|x86.ActiveCfg = Release|Any CPU
 		{416F3701-8820-446A-8E57-28E3126EDFD4}.Release|x86.Build.0 = Release|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Debug|x64.Build.0 = Debug|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Debug|x86.Build.0 = Debug|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Release|x64.ActiveCfg = Release|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Release|x64.Build.0 = Release|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Release|x86.ActiveCfg = Release|Any CPU
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +255,7 @@ Global
 		{58A90104-E62E-4BC9-AA0E-1D59FCF1B3D6} = {355D0D87-1CD7-49CB-BB87-8D272E4F74B4}
 		{279E7CE7-5BBB-4A83-8089-9C6ECB47D6F5} = {44FFD47C-0A4F-4422-B4EF-C344C51A8F87}
 		{416F3701-8820-446A-8E57-28E3126EDFD4} = {226AF5B3-BD84-442D-B78B-FFF1E7738696}
+		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9} = {AF84C38A-777C-41DE-A240-1E604BADF32C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16EB2821-2690-4FB9-9010-87928455E735}
