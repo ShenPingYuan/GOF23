@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace SingletonPattern
 {
@@ -6,7 +7,7 @@ namespace SingletonPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
