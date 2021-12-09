@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "src\FactoryPattern\FactoryPattern.csproj", "{FA0E942B-8AF3-4A44-A4D3-5FDCFD6C4964}"
 EndProject
@@ -50,6 +50,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "策略模式", "策略模式", "{44FFD47C-0A4F-4422-B4EF-C344C51A8F87}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "src\StrategyPattern\StrategyPattern.csproj", "{279E7CE7-5BBB-4A83-8089-9C6ECB47D6F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模式", "{51F3F9C6-12F1-4F0B-9501-6D3C0C1127A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "src\StatePattern\StatePattern.csproj", "{53A13F74-A44E-4877-9C74-5FD86A3A8781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +209,18 @@ Global
 		{279E7CE7-5BBB-4A83-8089-9C6ECB47D6F5}.Release|x64.Build.0 = Release|Any CPU
 		{279E7CE7-5BBB-4A83-8089-9C6ECB47D6F5}.Release|x86.ActiveCfg = Release|Any CPU
 		{279E7CE7-5BBB-4A83-8089-9C6ECB47D6F5}.Release|x86.Build.0 = Release|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x64.Build.0 = Debug|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x86.Build.0 = Debug|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x64.ActiveCfg = Release|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x64.Build.0 = Release|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x86.ActiveCfg = Release|Any CPU
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +238,7 @@ Global
 		{C8658EE4-25D7-4EAE-9615-5FD3BAFDB493} = {F3B4F02D-C7BB-4926-A517-4FB68095B9FF}
 		{58A90104-E62E-4BC9-AA0E-1D59FCF1B3D6} = {355D0D87-1CD7-49CB-BB87-8D272E4F74B4}
 		{279E7CE7-5BBB-4A83-8089-9C6ECB47D6F5} = {44FFD47C-0A4F-4422-B4EF-C344C51A8F87}
+		{53A13F74-A44E-4877-9C74-5FD86A3A8781} = {51F3F9C6-12F1-4F0B-9501-6D3C0C1127A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16EB2821-2690-4FB9-9010-87928455E735}
