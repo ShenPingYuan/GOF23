@@ -67,10 +67,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "组合模式", "组合模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "src\CompositePattern\CompositePattern.csproj", "{3AF16B27-F727-4892-B572-390129108B53}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模式", "{51F3F9C6-12F1-4F0B-9501-6D3C0C1127A8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "src\StatePattern\StatePattern.csproj", "{53A13F74-A44E-4877-9C74-5FD86A3A8781}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
