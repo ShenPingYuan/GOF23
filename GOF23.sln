@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "src\Facto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "src\AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{6A747F79-784A-4B99-8BFE-C2E8B827DA34}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_工厂模式", "2_工厂模式", "{A803929D-4142-4A81-AF8D-14E775D0FD0B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工厂模式", "工厂模式", "{A803929D-4142-4A81-AF8D-14E775D0FD0B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_抽象工厂模式", "3_抽象工厂模式", "{FE05B124-107E-4322-B7F1-369AB476D7D6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "抽象工厂模式", "抽象工厂模式", "{FE05B124-107E-4322-B7F1-369AB476D7D6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_单例模式", "1_单例模式", "{382B3FE6-87E7-4476-B71A-111B766AA742}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单例模式", "单例模式", "{382B3FE6-87E7-4476-B71A-111B766AA742}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "src\SingletonPattern\SingletonPattern.csproj", "{920AE531-92E4-4248-B2ED-3E908548E4E0}"
 EndProject
@@ -53,19 +53,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "src\Stra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模式", "{226AF5B3-BD84-442D-B78B-FFF1E7738696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "src\StatePattern\StatePattern.csproj", "{416F3701-8820-446A-8E57-28E3126EDFD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "src\StatePattern\StatePattern.csproj", "{416F3701-8820-446A-8E57-28E3126EDFD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "适配器模式", "适配器模式", "{AF84C38A-777C-41DE-A240-1E604BADF32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "src\AdapterPattern\AdapterPattern.csproj", "{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "src\AdapterPattern\AdapterPattern.csproj", "{A76EA12E-7E8A-43F3-A572-6EEB46A958F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "备忘录模式", "备忘录模式", "{AD567C17-5E5D-4692-8490-294D6F97F7F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "src\MementoPattern\MementoPattern.csproj", "{75DF56CF-860F-4FD1-99D0-9D4B671D43EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "src\MementoPattern\MementoPattern.csproj", "{75DF56CF-860F-4FD1-99D0-9D4B671D43EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "组合模式", "组合模式", "{0FE39FD8-575E-43F1-8AAE-6A8A19669215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "src\CompositePattern\CompositePattern.csproj", "{3AF16B27-F727-4892-B572-390129108B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "src\CompositePattern\CompositePattern.csproj", "{3AF16B27-F727-4892-B572-390129108B53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,18 +269,6 @@ Global
 		{3AF16B27-F727-4892-B572-390129108B53}.Release|x64.Build.0 = Release|Any CPU
 		{3AF16B27-F727-4892-B572-390129108B53}.Release|x86.ActiveCfg = Release|Any CPU
 		{3AF16B27-F727-4892-B572-390129108B53}.Release|x86.Build.0 = Release|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x64.Build.0 = Debug|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Debug|x86.Build.0 = Debug|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x64.ActiveCfg = Release|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x64.Build.0 = Release|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x86.ActiveCfg = Release|Any CPU
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,7 +290,6 @@ Global
 		{A76EA12E-7E8A-43F3-A572-6EEB46A958F9} = {AF84C38A-777C-41DE-A240-1E604BADF32C}
 		{75DF56CF-860F-4FD1-99D0-9D4B671D43EE} = {AD567C17-5E5D-4692-8490-294D6F97F7F6}
 		{3AF16B27-F727-4892-B572-390129108B53} = {0FE39FD8-575E-43F1-8AAE-6A8A19669215}
-		{53A13F74-A44E-4877-9C74-5FD86A3A8781} = {51F3F9C6-12F1-4F0B-9501-6D3C0C1127A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16EB2821-2690-4FB9-9010-87928455E735}
