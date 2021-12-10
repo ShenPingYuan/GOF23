@@ -6,7 +6,12 @@ namespace BridgePattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Abstraction ab = new RefinedAbstraction();
+            ab.SetImplementor(new ConcreteImplementorA());
+            ab.Operation();
+
+            ab.SetImplementor(new ConcreteImplementorB());
+            ab.Operation();
         }
     }
 }
