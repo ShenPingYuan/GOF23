@@ -1,12 +1,18 @@
-﻿using System;
+﻿using StatePattern.States;
+using System;
 
 namespace StatePattern
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Context c = new Context(new ConcreteStateA());
+            c.Request();
+            c.Request();
+            c.Request();
+            c.Request();
+            c.Request();
         }
     }
 }
