@@ -20,6 +20,10 @@ namespace FlyweightPattern
 
             UnsharedConcreteFlyweight uf=new UnsharedConcreteFlyweight();
             uf.Operation(--extrinsicstate);
+
+            string strA = "a string";
+            string strB = "a string";
+            Console.WriteLine(string.Equals(strA,strB));
         }
     }
 }
