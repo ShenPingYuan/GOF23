@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "src\FactoryPattern\FactoryPattern.csproj", "{FA0E942B-8AF3-4A44-A4D3-5FDCFD6C4964}"
 EndProject
@@ -77,11 +77,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "src\Bridge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "命令模式", "命令模式", "{758C03E3-0744-437A-8C58-980AA961E208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "src\CommandPattern\CommandPattern.csproj", "{5B351091-1E0E-488D-B112-15B68151B06C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "src\CommandPattern\CommandPattern.csproj", "{5B351091-1E0E-488D-B112-15B68151B06C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "责任链模式", "责任链模式", "{35BE6AD4-B2AB-4DCC-A296-FBAB45C36CC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "src\ChainOfResponsibility\ChainOfResponsibility.csproj", "{B83A01ED-FCF3-4D12-B081-6DB910994D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "src\ChainOfResponsibility\ChainOfResponsibility.csproj", "{B83A01ED-FCF3-4D12-B081-6DB910994D07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "中介者模式", "中介者模式", "{692B7078-9F53-4E06-BD9D-38A48D43F79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "src\MediatorPattern\MediatorPattern.csproj", "{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +337,18 @@ Global
 		{B83A01ED-FCF3-4D12-B081-6DB910994D07}.Release|x64.Build.0 = Release|Any CPU
 		{B83A01ED-FCF3-4D12-B081-6DB910994D07}.Release|x86.ActiveCfg = Release|Any CPU
 		{B83A01ED-FCF3-4D12-B081-6DB910994D07}.Release|x86.Build.0 = Release|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Debug|x64.Build.0 = Debug|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Debug|x86.Build.0 = Debug|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Release|x64.ActiveCfg = Release|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Release|x64.Build.0 = Release|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Release|x86.ActiveCfg = Release|Any CPU
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -358,6 +374,7 @@ Global
 		{7E0B02EB-00DD-483A-B9A2-AC087563BE6A} = {C74DEF25-94C1-4095-BC62-0289887E9F13}
 		{5B351091-1E0E-488D-B112-15B68151B06C} = {758C03E3-0744-437A-8C58-980AA961E208}
 		{B83A01ED-FCF3-4D12-B081-6DB910994D07} = {35BE6AD4-B2AB-4DCC-A296-FBAB45C36CC1}
+		{55981A78-F36B-4E61-BDF0-6CA01C7ECA59} = {692B7078-9F53-4E06-BD9D-38A48D43F79D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16EB2821-2690-4FB9-9010-87928455E735}
